@@ -1,0 +1,64 @@
+There are N childern and N Chairs. Given N and the childern names, it is required to calculate the number of all possible sitting arrangements such that the children having the same name cannot sit beside each other nor symmetric to each other around the middle chair. As examples of symmetric chairs, if there are 5 chairs, symmetric chairs are (1 with 5) and (2 with 4), and if there are 4 chairs, then the symmetric chairs are (1 with 4) and (2 with 3).
+
+
+===> Input Format
+
+
+the first line contains N and M, space separated
+
+the next N lines contain the names of the N children
+
+*Constraints
+
+
+N is from 1 to 8
+
+
+===> Output Format
+
+
+one line containing the number of possible arrangements that satisfy the conditions
+
+
+Sample Input 0
+
+
+4
+
+A
+
+B
+
+C
+
+A
+
+
+Sample Output 0
+
+
+8
+
+Explanation 0
+
+
+the 8 arrangements are:
+
+
+A B A C
+
+A C A B
+
+B A C A
+
+B A C A
+
+C A B A
+
+C A B A
+
+A B A C
+
+A C A B
+
+** Note**: the last two arrangements are like the first two in this example, because the first two start with the "first" child that has the name A, and the last two start with the "second" child that has the name A. Similarly, any duplicates in the arrangements are for the same reason.
